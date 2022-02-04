@@ -12,8 +12,15 @@ const multiply = function(array) {
     : 0;
 };
 
-const power = function() {
-	
+const power = function(base, powe) {
+	// if (powe === 0) return 1;
+  
+  // let a = 0;
+  // for (let i = 0; i <= powe; i++) {
+  //   a += base * base;
+  // }
+  // return a;
+  return Math.pow(base, powe);
 };
 
 const factorial = function() {
